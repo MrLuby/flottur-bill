@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  background-color: #ccc;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.top-hero {
+  position: relative;
+  height: 400px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.top-hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 110%;
+  font-size: 3.4rem;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+nav .navbar-brand {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #ccc;
+}
+nav .navbar-brand .fa-car {
+  color: #940000;
+}
+nav .navbar-nav {
+  font-size: 2rem;
+}
+nav .nav-link {
+  color: #ccc;
+}
+nav .nav-link:hover {
+  color: #940000;
+}
+nav .navbar-toggler {
+  color: #ccc;
+  margin-right: 5px;
+}
+nav .navbar-toggler i {
+  font-size: 2rem;
+}
+
+header .carousel-inner {
+  position: relative;
+}
+header .carousel-inner a {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  z-index: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+header .carousel-inner a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header .carousel-item {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+header .carousel-img-one {
+  background-image: url("../img/herosm1.jpg");
+}
+header .carousel-img-two {
+  background-image: url("../img/herosm2.jpg");
+}
+header .carousel-img-three {
+  background-image: url("../img/herosm3.jpg");
+}
+
+.home {
+  padding: 4em;
+  color: #ccc;
+  background-color: #111;
+}
+.home i {
+  font-size: 2.4rem;
+}
+.home h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.home-passion {
+  position: relative;
+  background-image: url("../img/carpassionsm.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+  z-index: 0;
+}
+.home-passion .hero-shadow-passion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.home-quality {
+  background: linear-gradient(0.35turn, #3e0000, #000, #000);
+}
+.home-quality h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.home-quality img {
+  width: 600px;
+}
+
+.about-hero {
+  background-image: url("../img/about/caraboutsm.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.about-top i {
+  color: #940000;
+}
+
+.about-info .container {
+  padding: 2em 0.5em;
+}
+.about-info .about-text {
+  padding: 1.8em;
+}
+.about-info .about-text h3 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-text-decoration: underline #940000;
+          text-decoration: underline #940000;
+}
+.about-info .about-text-right {
+  text-align: right;
+}
+.about-info .about-img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about-bottom i {
+  font-size: 3rem;
+}
+.about-bottom h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.about-bottom .bg-red {
+  background-color: #3e0000;
+}
+.about-bottom .card {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.about-bottom .card:hover {
+  -webkit-transform: scale(90%);
+          transform: scale(90%);
+}
+
+.service-hero {
+  background-image: url("../img/service/serviceherosm.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.service-hero-box {
+  position: relative;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.service-hero-box p {
+  text-transform: uppercase;
+  z-index: 1;
+  text-align: center;
+  line-height: 300px;
+}
+
+.service-hero-box:hover {
+  -webkit-transform: scale(103%);
+          transform: scale(103%);
+}
+
+.box-one {
+  background-image: url("../img/service/servicewash.jpg");
+}
+
+.box-two {
+  background-image: url("../img/service/serviceprotect.jpg");
+}
+
+.box-three {
+  background-image: url("../img/service/serviceinside.jpg");
+}
+
+.box-four {
+  background-image: url("../img/service/servicecomponent.jpg");
+}
+
+.project-hero {
+  background-image: url("../img/projects/projectherosm.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.projects img {
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.projects .btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.contact-hero {
+  background-image: url("../img/contact/contactherosm.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.contact h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+.contact .contact-logo {
+  font-size: 3rem;
+}
+.contact .contact-logo i {
+  color: #940000;
+}
+.contact .btn {
+  font-size: 2rem;
+  padding: 0.3em 0.8em;
+  background-color: #940000;
+  color: #fff;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+.contact .btn:hover {
+  background-color: #111;
+}
+
+.contact-map iframe {
+  width: 100%;
+  min-height: 400px;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+  font-size: 1.6rem;
+}
+
+footer {
+  background-color: #000;
+}
+
+@media (min-width: 992px) {
+  .about-info .container {
+    padding: 0;
+  }
+  .about-shadow {
+    -webkit-box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.6);
+            box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.6);
+  }
+  .about-text {
+    padding: 5em;
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
+  }
+  .about-text-left {
+    padding-right: 2em;
+    text-align: right;
+  }
+  .about-text-right {
+    padding-left: 2em;
+    text-align: left;
+  }
+  .about-img {
+    margin-top: 15px;
+    height: auto;
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
+  }
+}
+@media (min-width: 1200px) {
+  header .carousel-img-one {
+    background-image: url("../img/herolg1.jpg");
+  }
+  header .carousel-img-two {
+    background-image: url("../img/herolg2.jpg");
+  }
+  header .carousel-img-three {
+    background-image: url("../img/herolg3.jpg");
+  }
+  .home-passion {
+    background-image: url("../img/carpassionlg.jpg");
+  }
+  .about-hero {
+    background-image: url("../img/about/caraboutlg.jpg");
+  }
+  .service-hero {
+    background-image: url("../img/service/serviceherolg.jpg");
+  }
+  .project-hero {
+    background-image: url("../img/projects/projectherolg.jpg");
+  }
+  .contact-hero {
+    background-image: url("../img/contact/contactherolg.jpg");
+  }
+}/*# sourceMappingURL=style.css.map */
